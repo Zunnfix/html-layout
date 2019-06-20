@@ -10,7 +10,7 @@
     position: relative;
     display: inline-block;
     border: 3px solid black;
-    height: 250px;
+    height: 280px;
     width: 95%;
     margin: 0;
 }
@@ -26,8 +26,8 @@
 
 .green-box {
     background-color: green;
-    height: 230px;
-    width: 360px;
+    height: 260px;
+    width: 460px;
     position: absolute;
     bottom: 0px;
     margin: 0px 0px 10px 105px;
@@ -40,36 +40,45 @@
     position: absolute;
     border-radius: 50%;
     bottom: 0px;
-    margin: 0px 0px 10px 500px;
+    margin: 0px 0px 10px 600px;
 }
 
 .dotted-box {
     position: relative;
     display: inline-block;
     border: 3px dotted black;
-    height: 250px;
+    height: 280px;
     width: 95%;
     margin: 0;
 }
 
 .center-box {
     display: inline-block;
-    background-color: rgb(247, 232, 204);
+    background-color: rgb(250, 237, 167);
     height: 200px;
     width: 760px;
-    margin: 25px auto;
+    margin: 40px auto;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
 }
 
 .fancy-box {
     display: flex;
-    border: 1px solid rgb(231, 231, 231);
+    border: 1px solid lightgray;
     height: 260px;
     width: 400px;
     margin: 15px auto;
+    -webkit-box-shadow: 9px 9px 11px -3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 9px 9px 11px -3px rgba(0, 0, 0, 0.4);
+    box-shadow: 9px 9px 11px -3px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: darkblue;
     display: flex;
     margin: auto;
 }
