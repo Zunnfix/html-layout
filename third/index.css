@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.main-content {
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    margin: 0;
+    padding: 20px;
+}
+
+.card, .card-header {
+    border: none;
+}
+
+.card-header {
+    height: 120px;
+}
+
+.card-header:hover {
+    
+}
+.card-body {
+    text-align: left;
+    background-color: #F9F9F9;
+    height: 210px;
+}
+
+.gray {
+    background-color: #E4E4E4;
+}
+.blue {
+    background-color: #64A2CD;
+}
+.teal {
+    background-color: #64E3D2;
+}
+.green {
+    background-color: #BFDC88;
+}
+.yellow {
+    background-color: #F0D914;
+}
