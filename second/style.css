@@ -1,0 +1,75 @@
+/* 
+  CSS Second Challenge
+*/
+
+.content {
+    text-align: center;
+}
+
+.content-box {
+    position: relative;
+    display: inline-block;
+    border: 3px solid black;
+    height: 250px;
+    width: 95%;
+    margin: 0;
+}
+
+.purple-box {
+    background-color: purple;
+    height: 120px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    margin: 0px 0px 10px 12px;
+}
+
+.green-box {
+    background-color: green;
+    height: 230px;
+    width: 360px;
+    position: absolute;
+    bottom: 0px;
+    margin: 0px 0px 10px 105px;
+}
+
+.blue-circle {
+    background-color: skyblue;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0px;
+    margin: 0px 0px 10px 500px;
+}
+
+.dotted-box {
+    position: relative;
+    display: inline-block;
+    border: 3px dotted black;
+    height: 250px;
+    width: 95%;
+    margin: 0;
+}
+
+.center-box {
+    display: inline-block;
+    background-color: rgb(247, 232, 204);
+    height: 200px;
+    width: 760px;
+    margin: 25px auto;
+}
+
+.fancy-box {
+    display: flex;
+    border: 1px solid rgb(231, 231, 231);
+    height: 260px;
+    width: 400px;
+    margin: 15px auto;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin: auto;
+}
